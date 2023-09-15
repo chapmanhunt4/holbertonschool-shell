@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'tail -n 1' > 9-duplicate_last_line
+echo 'tail -n 1' >> 9-duplicate_last_line
