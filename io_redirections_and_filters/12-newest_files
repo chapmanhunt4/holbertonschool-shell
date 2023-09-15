@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l | grep ^f | wc -l tail -n 10 
