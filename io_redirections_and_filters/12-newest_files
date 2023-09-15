@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep ^f | wc -l head -n 10 
+ls -lt | grep ^f | wc -l tail -n 10 
