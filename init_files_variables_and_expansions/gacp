@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+cit commit -m "$1"
+git push
