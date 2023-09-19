@@ -11,4 +11,5 @@ echo "$m"
 m=$((m+1))
 done
 h=$((h+1))
+m=1
 done 
