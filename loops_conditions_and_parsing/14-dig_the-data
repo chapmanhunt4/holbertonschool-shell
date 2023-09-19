@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # A script using awk to display and phrase apache logs
 
-awk '( print $1 " "$9)' apache-access.log | sort | uniq -c | sort -nr
+cat ip_addresses | sort | uniq -c | sort -nr | awk '{print $2 " " $1}'
