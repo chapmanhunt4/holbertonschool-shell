@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# A script that displays hours 0-12 and the 60 minutes in and hour
+h=0
+m=1
+while [ $h -le 12 ]
+do
+echo "Hour: $h"
+while [ $m -lt 60 ]
+do
+echo "$m"
+m=$((m+1))
+done
+h=$((h+1))
+done 
