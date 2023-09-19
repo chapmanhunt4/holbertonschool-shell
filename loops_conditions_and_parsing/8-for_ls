@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # A script that displays a list of files without the number and dash
-for i in *
+l=$(ls)
+for i in $l
 do
-echo "{i#*-}"
+echo "$i" | cut -d '-' -f2
 done
