@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A script that displays a list of files without the number and dash
+for x in *
+do
+echo "{X#*-}"
+done
